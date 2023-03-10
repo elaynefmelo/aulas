@@ -6,7 +6,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        azulEscuro: '#006ec7'
+        azulEscuro: '#006ec7',
+        vermelho: '#dc2626',
+        preto: '#171717'
+        
       }
     },
   },
