@@ -1,6 +1,5 @@
 import React from 'react';
 //import { Link } from 'react-router-dom';
-import mouraTech from '../pages/imagens/mouraTech.png';
 
 function LoginPage() {
   return (
@@ -9,7 +8,7 @@ function LoginPage() {
      <div className="relative flex flex-col justify-center min-h-screen overflow-hidden">
         <div className="w-full p-6 m-auto bg-white rounded-md lg:max-w-xl">
         <div className='w-full px-4 py-5 flex justify-content align-center justify-center '>
-          <img src={mouraTech} alt='Logo Moura Tech' className='justify-center '/>
+          <img src='/imagens/mouraTech.png' alt='Logo Moura Tech' className='justify-center '/>
         </div>
           <h1 className="text-3xl font-bold text-center text-preto-700">Entre com sua conta</h1>
           <form className="mt-6">
