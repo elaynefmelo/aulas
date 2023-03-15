@@ -1,4 +1,5 @@
 import React from 'react';
+import Menu from '../components/Menu';
 //import { Link } from 'react-router-dom';
 
 function LoginPage() {
@@ -6,6 +7,7 @@ function LoginPage() {
   <>
     
      <div className="relative flex flex-col justify-center min-h-screen overflow-hidden">
+     <Menu />
         <div className="w-full p-6 m-auto bg-white rounded-md lg:max-w-xl">
         <div className='w-full px-4 py-5 flex justify-content align-center justify-center '>
           <img src='/imagens/mouraTech.png' alt='Logo Moura Tech' className='justify-center '/>

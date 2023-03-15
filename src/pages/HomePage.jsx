@@ -1,12 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Timer from '../components/Exemplo1';
+import Menu from '../components/Menu';
 
 function HomePage() {
   return (
     <>
+    <div className='bg-gray-400 h-screen w-screen'>
+      <Menu />
       <Timer start={0} ms={1000} />
-      <Link className='text-blue-600 underline w-96 block' to="/login">Pagina de Login</Link>
+      
+    </div>
+      
     </>
 
   )

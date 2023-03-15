@@ -1,4 +1,5 @@
 import React, { useEffect, useState} from "react";
+import Menu from "../components/Menu";
 
 function Exemplo1(){
     const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function Exemplo1(){
     }
     return (
         <div>
+        <Menu />
         <h1>Contagem: {count}</h1>
         <button onClick={incrementar} className=" bg-black text-white rounded-lg ">
             Adicionar
