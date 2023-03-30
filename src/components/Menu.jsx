@@ -17,6 +17,9 @@ function Menu(){
                 <li><NavLink to="/exemplo1" className='hover:underline'>
                     Exemplo1
                 </NavLink></li>
+                <li><NavLink to="/gitHubPage" className='hover:underline'>
+                    GitHub
+                </NavLink></li>
             </ul>
         </nav>
     );

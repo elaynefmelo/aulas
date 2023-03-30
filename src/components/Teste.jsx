@@ -1,7 +1,7 @@
 import React from "react";
 
 function Teste(props){
-    const {passo = 1} = props;
+    
     return (
         <div className="bg-red-300 flex flex-row items-center justify-center p-4">
             <div className="bg-white w-10 h-10 flex flex-row itens-center justify-center rounded-full text-3xl">1</div>
